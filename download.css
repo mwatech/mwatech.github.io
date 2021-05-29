@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: url(https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3Dx6ehyuEYMrU&psig=AOvVaw3BKLoiUFkGHEdOpMbEjCbL&ust=1622283896824000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCIDOwIKU7PACFQAAAAAdAAAAABAE);
+    background-size: cover;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+    font-family:sans-serif;
+}
+a{
+    display: block;
+    background: #00A9D4;
+    color: #fff;
+    padding: 15px;
+    cursor: pointer;
+    text-decoration: none;
+    width: 320px;
+    text-align: center;
+    border-radius: 5px;
+    font-size: 20px;
+}
+a:hover{
+    background: #00729d;
+}
+.btn2{
+    background: #f98909;
+}
+.btn2:hover{
+    background: #dc6c11;
+}
+p{
+    color: #888;
+    padding: 15px;
+}
+.h1{
+    text-transform: uppercase;
+    font-size: 1.6rem;
+    animation: aagepiche 2s linear infinite;
+    animation-direction: alternate;
+}
